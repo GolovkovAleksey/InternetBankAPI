@@ -16,11 +16,10 @@ public class SwaggerConfig {
         return new OpenAPI()
                 .addServersItem(new Server().url(contextPath))
                 .info(new Info()
-                        .title("Tracking_travel")
                         .version("1.0.0")
                         .contact(new Contact()
                                 .email("Golovkov_a@mail.ru")
-                                .url("https://github.com/j-thrash")
+                                .url("https://github.com/GolovkovAleksey/InternetBankAPI")
                                 .name("GolovkovAleksey")
                         )
                 );
