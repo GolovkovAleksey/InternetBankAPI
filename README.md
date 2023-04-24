@@ -7,4 +7,4 @@
 ### Запрос операций пользователя по его ID
 ### Перевод денег между пользователями
 
-![222.png](src%2Fmain%2Fresources%2Fstatic%2F222.png)
+![api.png](src%2Fmain%2Fresources%2Fstatic%2Fapi.png)

@@ -70,6 +70,7 @@ public class BankController {
         }
         logger.info("Пользователь с ID:" + id + " не найден");
         return new ResponseEntity<>(HttpStatus.NOT_FOUND);
+
     }
 
     @Transactional

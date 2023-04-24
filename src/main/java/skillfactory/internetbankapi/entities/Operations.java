@@ -26,8 +26,6 @@ public class Operations {
 
     private Double sum;
 
-    private Long user_id;
-
     public Operations() {
     }
 

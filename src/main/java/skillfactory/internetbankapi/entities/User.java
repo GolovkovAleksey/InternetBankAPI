@@ -29,7 +29,7 @@ public class User {
     private Double balance;
 
     @OneToMany(cascade = CascadeType.ALL)
-    @JoinColumn(name = "user_id")
+    @JoinColumn(name = "userId")
     private List<Operations> operations;
 
     public User(Long id, String name, String surname, Double balance) {
